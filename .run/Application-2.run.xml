@@ -1,0 +1,21 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Application-2" type="Application" factoryName="Application" singleton="false">
+    <option name="MAIN_CLASS_NAME" value="org.example.scheduler.Application" />
+    <module name="scheduler-lock" />
+    <option name="VM_PARAMETERS" value="-DAPP_ID=Scheduler-2 -Duser.timezone=UTC -Duser.country=US -Duser.language=en" />
+    <extension name="coverage">
+      <pattern>
+        <option name="PATTERN" value="org.example.scheduler.*" />
+        <option name="ENABLED" value="true" />
+      </pattern>
+    </extension>
+    <extension name="software.aws.toolkits.jetbrains.core.execution.JavaAwsConnectionExtension">
+      <option name="credential" />
+      <option name="region" />
+      <option name="useCurrentConnection" value="false" />
+    </extension>
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>

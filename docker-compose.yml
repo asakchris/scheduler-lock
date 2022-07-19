@@ -1,0 +1,12 @@
+version: '3.0'
+
+services:
+  db:
+    image: postgres
+    restart: always
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRES_DB: schd
+      POSTGRES_USER: foo
+      POSTGRES_PASSWORD: example123

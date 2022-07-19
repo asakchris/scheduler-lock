@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/schd?ApplicationName=SchedulerApp
+    username: foo
+    password: example123
+    hikari:
+      auto-commit: false
+      minimum-idle: 5
+      maximum-pool-size: 10
+      isolate-internal-queries: true
+app:
+  id: ${APP_ID}
